@@ -1,2 +1,2 @@
 test:
-	go test -bench=. -benchmem
+	go test -bench=. -benchmem -benchtime 10000x
